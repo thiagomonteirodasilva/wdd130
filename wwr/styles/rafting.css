@@ -31,7 +31,7 @@ header, main, footer {
   margin: 0 auto;
 }
 
-h1, h2 {
+h1, h2, legend {
   font-family: var(--heading-font);
   color: var(--primary-color);
 }
@@ -148,4 +148,91 @@ footer p {
 
 footer nav {
   width: 30%;
+}
+
+.map iframe {
+  border: 0;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: var(--accent1-color);
+  padding: .75rem;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+button:hover {
+  color: var(--primary-color);
+  background-color: var(--accent1-color);
+  border: 1px solid var(--primary-color);
+}
+
+.employees {
+  display: flex;
+  justify-content: center;
+}
+
+.employees figure {
+  width: 33%;
+  padding: 1rem;
+  text-align: center;
+}
+
+.employees img {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+}
+
+legend {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+fieldset {
+  border: none;
+}
+
+input, textarea {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 50%;
+}
+
+.contact-info {
+  display: grid;
+  margin-bottom: 1rem;
+}
+
+.contact-info label {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.radio-button, .write-message {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+textarea {
+  width: 100%;
+}
+
+.subscribeme {
+  margin-top: 1rem;
+}
+
+.my-wireframe {
+  color: var(--primary-color);
+  text-decoration: none;
 }
