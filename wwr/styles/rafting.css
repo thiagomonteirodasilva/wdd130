@@ -171,6 +171,12 @@ button:hover {
   border: 1px solid var(--primary-color);
 }
 
+.contact-us-title {
+  position: relative;
+  background-color: transparent;
+  color: var(--primary-color);
+}
+
 .employees {
   display: flex;
   justify-content: center;
