@@ -3,13 +3,73 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the homepage of Splash White Water Rafting, where you can find information about our rafting adventures and services.">
+    <meta name="author" content="Thiago Silva">
     <title>Splash - White Water Rafting</title>
-    <link rel="stylesheet" href="styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
   </head>
   <body>
-    
+    <header>
+      <img src="images/logo.png" alt="Rafting Company Logo" class="logo">
+      <nav class="navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </header>
+    <main>
+      <div class="hero">
+        <img src="images/heroimg_home.jpg" alt="People on rafting">
+        <h1>Here is where adventure happens!</h1>
+      </div>
+      <form class="newsletter-form">
+        <fieldset>
+          <legend>Sign up for our newsletter</legend>
+          <div class="contact-info">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" class="newsletter-fields">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" class="newsletter-fields">
+          </div>
+        </fieldset>
+        <button type="submit">Sign Up!</button>
+      </form>
+      <section>
+        <h2 class="trips-link">
+          <a href="trips.html">Click here to take a look at our amazing trips!</a>
+        </h2>
+        <div class="purpose">
+          <img src="images/our_purpose1.jpg" alt="The purpose of Splash WWR">
+          <p>
+            Splash WWR provides an awesome experience that provides remarkable adventures for people of all ages.
+            We are committed to ensuring that every rafting trip is not only thrilling but also safe and enjoyable for everyone involved.
+          </p>
+        </div>
+        <div class="purpose">
+          <p>
+            Our purpose is to create unforgettable memories while promoting a love for nature and adventure. We believe that rafting is not just a sport, but a way to connect with the great outdoors and with each other.
+          </p>
+          <img src="images/our_purpose2.jpg" alt="The purpose of Splash WWR">
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>©2025 Splash White Water Rafting | Thiago Silva</p>
+      <nav class="socialmedia">
+        <a href="https://facebook.com">
+          <img src="images/facebook.png" alt="Facebook logo">
+        </a>
+        <a href="https://x.com">
+          <img src="images/x.png" alt="X Twitter logo">
+        </a>
+        <a href="https://instagram.com">
+          <img src="images/instagram.png" alt="Instagram logo">
+        </a>
+      </nav>
+    </footer>
   </body>
 </html>
