@@ -261,14 +261,42 @@ textarea {
   width: 500px;
 }
 
-.trips-link {
+.trip-plans {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 1.5rem;
+}
+
+.trip-plans img {
+  width: 300px;
+}
+
+.call-to-action {
   margin-bottom: 1rem;
   padding: 0.5rem;
 }
 
-.trips-link a {
+.call-to-action a {
   text-decoration: none;
   color: var(--accent1-color);
   background-color: var(--primary-color);
   padding: 0.5rem;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+th, td
+{
+  border: 1px solid var(--primary-color);
+  padding: 0.5rem;
+}
+
+thead th {
+  background-color: var(--primary-color);
+  color: var(--accent1-color);
+  border: 1px solid var(--accent1-color);
 }
